@@ -1,0 +1,119 @@
+/*----------------------------------
+        responsive for laptop  
+  -----------------------------------*/
+
+@media only screen and (min-width: 567px) {
+
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    
+    header {
+        margin: 30px 140px 20px 100px;
+    }
+
+    nav {
+        display: flex;  
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .header-section {
+        margin-right: 60px;
+        justify-content: space-between;
+        gap: 190px;
+        
+    }
+
+    .header-heading {
+        font-size: 52px;
+        margin-bottom: 15px;
+    }
+
+    .btn-primary {
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* -----------------------------------
+        responsive for mobile
+      ----------------------------------- */
+
+@media only screen and (max-width: 567px) {
+
+     /* header section  */
+
+     nav h3{
+        align-content: center;
+     }
+
+      .menu {
+        display: none;
+      }
+
+      .mobile-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header-section {
+        flex-direction: column-reverse;
+        gap: 30px;
+      }
+
+      .header-heading {
+        font-size: 28px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .header-description {
+        margin: 0px 10px 20px 10px;
+     }
+
+
+     .btn-primary{
+       background-color: orange;
+       border: none;
+       border-radius: 15px;
+     }
+}
+     
